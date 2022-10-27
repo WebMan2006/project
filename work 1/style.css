@@ -1,0 +1,107 @@
+/* divs */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 50px;
+} 
+
+.div1{
+    border: 5px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: #fff;
+}
+.div2{
+    background-color: #fff;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    height: 600px
+}
+.div3{
+    background-color: #fff;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+  /* image */
+
+.change{
+    width: 400px;
+    height: 300px;
+}
+
+.change2{
+    width: 400px;
+    height: 300px;
+}
+.change3{
+    width: 400px;
+    height: 300px;
+}
+
+/* character names */
+
+.person{
+    font-weight: bolder;
+}
+
+.person1{
+    font-weight: bolder;
+}
+
+.person2{
+    font-weight: bolder;
+}
+
+/* text color */
+
+.color{
+    color: rgb(236, 1, 1);
+    font-weight: bolder;
+}
+.color1{
+    color: rgb(236, 1, 1);
+    font-weight: bolder;
+}
+.color2{
+    color: rgb(236, 1, 1);
+    font-weight: bolder;
+}
+ /* button */
+.div2 a{
+    width: 200px;
+    height: 80px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.div2 a:focus{
+    outline: none;
+}
+
+ body{
+    background-color: rgb(35, 206, 149);
+} 
+ /* ::shadow */
+.div1:hover{
+    box-shadow: 20px 20px 20px #000;
+}
+
+.div2:hover{
+    box-shadow: 20px 20px 20px #000;
+}
+
+.div3:hover{
+    box-shadow: 20px 20px 20px #000;
+}
